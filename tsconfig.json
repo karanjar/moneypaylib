@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Where to find and place files */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Output format */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+
+    /* Type checking */
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Output type declarations (.d.ts) */
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Optional: source maps for debugging */
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
