@@ -11,7 +11,8 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "clean": "rm -rf dist",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "release": "npm version patch && npm publish"
   },
   "keywords": ["typscript","library","greet"],
   "author": "Robert",
