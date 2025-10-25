@@ -1,6 +1,6 @@
 {
   "name": "moneypaylib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small TypeScript library example",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -14,7 +14,11 @@
     "prepare": "npm run build",
     "release": "npm version patch && npm publish"
   },
-  "keywords": ["typscript","library","greet"],
+  "keywords": [
+    "typscript",
+    "library",
+    "greet"
+  ],
   "author": "Robert",
   "license": "MIT",
   "devDependencies": {
